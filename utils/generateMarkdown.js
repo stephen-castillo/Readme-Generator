@@ -181,7 +181,7 @@ ${data.description}
 
 ## Installation
 
-${data.installation}
+${data.install}
 
 ## Usage
 
@@ -194,7 +194,7 @@ ${renderLicenseLink(data.license)}
 
 ## Contributing
 
-${data.contribution}
+${data.guidelines}
 
 ## Tests
 
