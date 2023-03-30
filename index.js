@@ -38,7 +38,7 @@ const questions = [
         name: 'license', 
         message: "What license is your project using?", 
         type: 'list', 
-        choices:['MIT', 'GNU']
+        choices:["None", "MIT", "GNU", "APACHE", "BSD3", "BSD2", "LGPL", "MPL", "AGPL", "unlicense", "CC0-1.0"]
     },
     {
         name: 'user', 
@@ -65,7 +65,8 @@ function init() {
         answers.link = renderLicenseLink(answers.license);
         answers.info = renderLicenseSection(answers.license);
         console.log(answers);
-        generateMarkdown(answers);
+        let readmeData = generateMarkdown(answers);
+        console.log(readmeData);
     })
     .catch((error) =>{
         if(error.isTtyError){
