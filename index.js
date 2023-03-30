@@ -60,7 +60,12 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) =>{
+        //console.log(answers);
+        answers.badge = renderLicenseBadge(answers.license);
+        answers.link = renderLicenseLink(answers.license);
+        answers.info = renderLicenseSection(answers.license);
         console.log(answers);
+        generateMarkdown(answers);
     })
     .catch((error) =>{
         if(error.isTtyError){
