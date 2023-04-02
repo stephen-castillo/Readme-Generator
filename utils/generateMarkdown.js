@@ -190,7 +190,9 @@ ${data.usage}
 ## License
 
 ${renderLicenseBadge(data.license)}
+
 ${renderLicenseSection(data.license)}
+
 ${renderLicenseLink(data.license)}
 
 ## Contributing

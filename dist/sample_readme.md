@@ -2,7 +2,7 @@
 
 ## Description
 
-A Node.js script that generates a project readme based on a user's input.
+A simple program that quickly generates a profession project readme
 
 ## Table of Contents
 
@@ -18,24 +18,25 @@ A Node.js script that generates a project readme based on a user's input.
 
 ## Installation
 
-undefined
+You will need to install Node.js and the Inquirer module version 8.2.4
 
 ## Usage
 
-Usage is to auto generate readmes.
+Used to quickly create project readmes
 
 ## License
-[GNU General Public License v3.0 (GPL-3.0)](https://choosealicense.com/licenses/gpl-3.0/)
-This program is covered under the GNU General Public License v3.0 (GPL-3.0)
-[GNU General Public License v3.0 (GPL-3.0)](https://choosealicense.com/licenses/gpl-3.0/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This program is covered under the MIT License
+[MIT License](https://choosealicense.com/licenses/mit/)
 
 ## Contributing
 
-undefined
+Please email me to collaborate.
 
 ## Tests
 
-undefined
+There are no tests for this project at this time.
 
 ## Questions
 
