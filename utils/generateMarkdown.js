@@ -5,43 +5,43 @@ function renderLicenseBadge(license) {
     switch (license){
     
         case 'MIT':
-        licenseBadge = "[MIT License](https://choosealicense.com/licenses/mit/)";
+        licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
         break;
     
         case 'GNU':
-        licenseBadge = "[GNU General Public License v3.0 (GPL-3.0)](https://choosealicense.com/licenses/gpl-3.0/)";
+        licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
         break;
     
         case 'APACHE':
-        licenseBadge = "[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)";
+        licenseBadge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
         break;
     
         case 'BSD3':
-        licenseBadge = "[BSD 3-Clause License](https://choosealicense.com/licenses/bsd-3-clause/)";
+        licenseBadge = "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
         break;
     
         case 'BSD2':
-        licenseBadge = "[BSD 2-Clause License](https://choosealicense.com/licenses/bsd-2-clause/)";
+        licenseBadge = "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)";
         break;
     
         case 'LGPL':
-        licenseBadge = "[GNU Lesser General Public License v3.0 (LGPL-3.0)](https://choosealicense.com/licenses/lgpl-3.0/)";
+        licenseBadge = "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
         break;
     
         case 'MPL':
-        licenseBadge = "[Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)";
+        licenseBadge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
         break;
     
         case 'AGPL':
-        licenseBadge = "[GNU Affero General Public License v3.0 (AGPL-3.0)](https://choosealicense.com/licenses/agpl-3.0/)";
+        licenseBadge = "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
         break;
     
         case 'unlicense':
-        licenseBadge = "[The Unlicense](https://choosealicense.com/licenses/unlicense/)";
+        licenseBadge = "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
         break;
     
         case 'CC0-1.0':
-        licenseBadge = "[Creative Commons Zero v1.0 Universal (CC0-1.0)](https://choosealicense.com/licenses/cc0-1.0/)";
+        licenseBadge = "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)";
         break;
     
         case 'None':
